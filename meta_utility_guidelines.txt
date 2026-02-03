@@ -1,0 +1,868 @@
+You should consider 2 things while drafting the template:
+1. Meta’a guidelines for Utility templates 
+2. A list of sample Utility templates provided by Meta 
+Both are given at the end of this message. 
+If the user’s intent is promotional (or borderline):
+Do not mention the promotion at all.
+
+
+Convert it into a neutral, user-request/transaction update.
+
+
+“Dilute” the objective only as much as needed to remove marketing intent while staying truthful.
+
+
+Example transformation: “We have a discount for you” → “Further to your recent interaction with us, there is an update on your account/order. Please review details.”
+
+
+Prefer framing as: order/account status, requested info, support follow-up, compliance notice, invoice/payment reminder, service disruption, appointment change, delivery update.
+
+
+If the intent is not promotional (or only mildly borderline):
+Preserve the original intent as much as possible while making it clearly Utility.
+
+
+Remember that some of the below hacks work well for making a template get approved in Utility:
+- Refer to a prior interaction whenever possible: “your order”, “your request”, “your ticket”, “your recent chat”, “your appointment”, “your account”.
+
+
+- Add relevant variables to make it feel user-specific (name/order/ticket/date/amount/last4/etc.).
+
+
+- Avoid hype, excitement, persuasion, or product discovery language.
+
+
+Do NOT include:
+discounts/offers/sale/free/coupon/deal/promo/limited time/best price
+
+
+product recommendations, “you may like”, “top picks”, “new arrivals”
+
+
+renewal pressure (“renew now”, “don’t miss out”), marketing opt-ins framed persuasively
+
+
+emojis that add promotional tone (you may use a neutral one sparingly, but default to none)
+
+
+“Shop now”, “Buy now”, “Explore”, “Discover”, “Grab”, “Hurry”
+Meta’s guidelines for Utility templates :
+Utility templates are typically triggered by a user action or request. For a template to be categorized as utility, it needs to meet both criteria below:
+	•	Must be non-promotional, not containing any promotional or persuasive intent.
+	•	Must ALSO be either specific to or requested by the user (clearly related to their order, account, services or transactions) OR essential or critical to the user (for example, to ensure user safety).
+Message Objective: Opt-In Management on WhatsApp
+Business Goal: Confirm opt-in to receive messages on WhatsApp as a follow-up to opt-in collected via other channels (for example, website, email) or confirm opt-out.
+Example templates:
+	•	Thanks for confirming opt-in! You’ll now receive notifications via WhatsApp.
+	•	Thank you for confirming your opt-out preference. You will no longer receive messages from us on WhatsApp.
+Message Objective: Order Management
+Business Goal : Confirm, update or cancel an order or transaction with a customer, using specific order or transaction details in the body of your message.
+These messages should not promote, recommend, upsell, or cross-sell products; include offers; or attempt to secure renewals.
+Example templates : 
+	•	Thank you! Your order {{order_number}} is confirmed. We will let you know once your package is on its way.
+	•	Hooray! Your package from order {{order_number}} is on its way. Your tracking number is {{tracking_ID}} and expected delivery date is {{date}}.
+	•	Unfortunately, one item from your order {{number}} is backordered. We will follow up with an estimated ship date. If you wish to cancel and receive a refund, please click below.
+	•	We have received your item from order {{order_number}}. Your refund for ${{amount}} has been processed. Thank you for your business.
+Message Objective: Account Alerts or Updates
+Business Goal: Send important or time-sensitive updates or alerts or other information specific to purchased or subscribed products/services.
+These messages should not promote, recommend, upsell, or cross-sell products; include offers; or attempt to secure renewals.
+Example templates:
+	•	Daily update for account ending in {{four_digit_number}}: Your available balance is {{amount}}.
+	•	Reminder: Your monthly payment for {{service}} will be billed on {{date}} to the {{card}} you have saved on file.
+	•	You only have {{number}} minutes remaining in your plan. Remember to top up your account by {{date}} to avoid disruptions.
+	•	To finish setting up your {{new_profile}}, you need to upload a {{photo}}. Please click below to upload.
+	•	Please note, we have updated our {{Customer_service}} phone number to {{number}}. Please save this and call if we can be of support.
+Message Objective : Feedback Surveys
+Business Goal: Collect feedback on previous orders, transactions or engagements with customers.
+Specificity of the order or interaction to which these relate is necessary. A general/generic survey or request for feedback will not be approved as utility.
+Example Templates:
+	•	We have delivered your order {{order_number}}! Please let us know if there was any issue by reaching out below.
+	•	Your feedback ensures we continually {{improve}}. Please click below to share your thoughts on your {{recent visit}} at our {{store}} location. Thank you in advance!
+	•	You chatted with us {{online}} recently about order {{order_number}}. How was your experience? Click below to fill out a short survey.
+Message Objective: Continue a Conversation on WhatsApp
+Business Goal: Send a message to begin an interaction on WhatsApp that began in another channel.
+These messages should not be initiated without a user having requested the conversation to be moved to WhatsApp.
+Example Templates:
+	•	Hi! I see you requested support via our {{online_chat}}. I am the virtual assistant on WhatsApp. How can I help?
+	•	Hi {{name}}, we are following up on your call with customer service on {{issue}}. Your case has progressed to the next step. Please log into your account to continue.
+For a utility template to be deemed essential or critical to the user, it must reflect one of the use cases below and must also be non-promotional (not containing any promotional or persuasive intent).
+Public Safety
+Severe weather
+There is a {{tornado}} alert in your area. We recommend you remain indoors until {{time}} today.
+Public Safety
+Crisis response
+We activated support services for the {{crisis}} in the {{zip code}} area. Live updates on our site, available below.
+Public Service
+Health awareness
+Stay up-to-date with your health. Stop by {{location}} by {{time}} to get your free COVID-19 {{vaccine}}. Bring your {{vaccination_card}} and identification document.
+Public Service
+Health emergency
+The {{city}} has just declared a health emergency because of {{issue}}. We will follow up with more details once available.
+Public Service
+Voting registration
+To vote on {{date}}, please ensure your voter {{registration card}} is active. Please click the URL below to understand steps required to renew, if needed. Please disregard this message if your {{registration card}} will be active.
+Public Service
+Disbursements
+Your {{welfare}} disbursement balance is {{amount}}. Kindly note it will expire on {{date}}.
+Public Disruption
+System outages
+We have detected a system outage that impacts zip code {{code}}. We expect to restore service by {{time_and_date}}. We apologize for the inconvenience.
+Public Disruption
+Operational disruption
+This is to notify you that {{trains}} at our {{location}} station are halted because of {{issue}}. Please avoid the area as we work to rectify.
+Account or Product Protection
+Fraud awareness
+We have detected an increase in {{ATM fraud}}. To protect your card ending in {{1234}}, please consider updating your PIN. Click below to see the step-by-step.
+Account or Product Protection
+Product recalls
+The {{product}} you ordered on {{date}} has been recalled. Please click below to let us know how you would like to proceed.
+Account or Product Protection
+Warranty alerts
+Thank you for your purchase of {{product}}. Your warranty is active as of {{date}}. Our {{product manuals}} are below, for your reference
+Legal/Regulatory Compliance
+Identity compliance
+This is to notify you that you need to upgrade to a {{updated_identification_card}} by {{date}}. To avoid any inconveniences when traveling, please ensure you make an appointment at your local {{office}}.
+Legal/Regulatory Compliance
+Privacy disclosures
+We updated our privacy policy on {{date}}. Please click the button below to learn more.
+Legal/Regulatory Compliance
+Warranty alerts
+Thank you for your purchase of {{product}}. Your warranty is active as of {{date}}. Our {{product manuals}} are below, for your reference
+Sample Utility templates given by Meta:
+{
+    "data": [
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "nb",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Fullfør konfigurering av konto",
+            "body": "Hei, {{1}}\n\nDen nye kontoen din er opprettet.\n\nBekreft {{2}} for å fullføre profilen.",
+            "body_params": [
+                "John",
+                "e-postadressen din"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Bekreft konto",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7213311995461680"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "fr",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Finalisez la configration du compte",
+            "body": "Bonjour {{1}},\n\nVotre nouveau compte a été créé correctement. \n\nVeuillez confirmer votre {{2}} pour terminer la configuration de votre profil.",
+            "body_params": [
+                "John",
+                "adresse e-mail"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Confirmer le compte",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7245332815567673"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "mr",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "खात्याचे सेटअप पूर्ण करा",
+            "body": "नमस्कार {{1}},\n\nतुमचे नवीन खाते तयार झाले आहे.\n\nतुमची प्रोफाइल पूर्ण करण्यासाठी कृपया {{2}} याची पडताळणी करा.",
+            "body_params": [
+                "John",
+                "तुमचा ईमेल ॲड्रेस"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "खात्याची पडताळणी करा",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7286517614792996"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "hu",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Fejezed be a fiókod beállítását",
+            "body": "Kedves {{1}}!\n\nAz új fiókodat létrehoztuk. \n\nErősítsd meg a(z) {{2}} e-mail-címed, hogy véglegesítsd a profilod.",
+            "body_params": [
+                "John",
+                "your email address"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Fiók megerősítése",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7289330547856158"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "sv",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Slutför konfiguration av kontot",
+            "body": "Hej {{1}}!\n\nDitt nya konto har skapats. \n\nVerifiera {{2}} och slutför profilen.",
+            "body_params": [
+                "John",
+                "din e-postadress"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Verifiera konto",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7290519651067821"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "he",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "סיום הגדרת החשבון",
+            "body": "הי {{1}},\n\nסיימת ליצור את החשבון החדש שלך. \n\nכדי להשלים את הפרופיל צריך לאמת את {{2}}.",
+            "body_params": [
+                "שם",
+                "כתובת האימייל שלך"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "אימות החשבון",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7307413549368231"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "en_GB",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Finalize account set-up",
+            "body": "Hi {{1}},\n\nYour new account has been created successfully. \n\nPlease verify {{2}} to complete your profile.",
+            "body_params": [
+                "John",
+                "your email address"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Verify account",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7308337825945048"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "el",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Ολοκληρώστε τη διαμόρφωση του λογαριασμού σας",
+            "body": "Γεια σας {{1}},\n\nΟ νέος σας λογαριασμός έχει δημιουργηθεί με επιτυχία. \n\nΕπαληθεύστε τη {{2}} για να ολοκληρώσετε το προφίλ σας.",
+            "body_params": [
+                "Γιάννη",
+                "διεύθυνση email σας"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Επαλήθευση λογαριασμού",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7345734462191789"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "zh_TW",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "完成帳號設定",
+            "body": "{{1}}您好：\n\n您的新帳號已成功建立。請驗證{{2}}，即可完成個人檔案。",
+            "body_params": [
+                "志明",
+                "電子郵件地址"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "驗證帳號",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7374006419343004"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "fi",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Viimeistele tilin määritys",
+            "body": "Hei, {{1}}\n\nUusi tilisi on luotu.\n\nViimeistele profiilisi vahvistamalla {{2}}.",
+            "body_params": [
+                "Johm",
+                "sähköpostiosoitteesi"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Vahvista tili",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7425139067541655"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "sr",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Завршите подешавање налога",
+            "body": "Здраво {{1}},\n\nВаш нов налог је успешно креиран. \n\nПотврдите {{2}} да бисте довршили свој профил.",
+            "body_params": [
+                "John",
+                "своју е-адресу"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Потврди рачун",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7432937966833869"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "ms",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Muktamadkan penyediaan akaun",
+            "body": "Hai {{1}},\n\nAkaun baharu anda telah berjaya dicipta.\n\nSila tentu sahkan {{2}} untuk menyelesaikan profil anda.",
+            "body_params": [
+                "John",
+                "alamat e-mel anda"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Tentu sahkan akaun",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7446208218805755"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "sw",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Kamilisha mipangilio ya akaunti",
+            "body": "Hujambo {{1}},\n\nAkaunti yako mpya imefunguliwa.\n\nTafadhali thibitisha {{2}} ili ukamilishe jalada lako.",
+            "body_params": [
+                "John",
+                "anwani yako ya barua pepe"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Thibitisha akaunti",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7450473591708045"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "vi",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Hoàn tất quy trình thiết lập tài khoản",
+            "body": "Chào {{1}},\n\nTài khoản mới của bạn đã được tạo thành công. \n\nVui lòng xác minh {{2}} để hoàn thiện trang cá nhân của bạn.",
+            "body_params": [
+                "Hiếu",
+                "địa chỉ email"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Xác minh tài khoản",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7461521803901027"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "uk",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Завершити налаштування облікового запису",
+            "body": "Вітаємо, {{1}}!\n\nВаш новий обліковий запис успішно створено.\n\nПідтвердьте {{2}}, щоб заповнити свій профіль.",
+            "body_params": [
+                "Олег",
+                "вашу електронну адресу"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Підтвердити обліковий запис",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7463432447105428"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "ca",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Finalitza la configuració del compte",
+            "body": "Hola, {{1}},\n\nEl teu compte s'ha creat correctament. \n\nVerifica {{2}} per completar el perfil.",
+            "body_params": [
+                "Joan",
+                "la teva adreça electrònica"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Verifica el compte",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7464267973641187"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "ta",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "கணக்கு அமைவை நிறைவுசெய்யுங்கள்",
+            "body": "வணக்கம் {{1}},\n\nஉங்களின் புதிய கணக்கு உருவாக்கப்பட்டது. \n\nசுயவிவரத்தை நிறைவுசெய்ய {{2}} உறுதிப்படுத்துங்கள்.",
+            "body_params": [
+                "ஜான்",
+                "உங்கள் மின்னஞ்சல் முகவரியை"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "கணக்கை உறுதிப்படுத்து",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7486111431500153"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "tr",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Hesap kurulumunu tamamla",
+            "body": "Merhaba {{1}},\n\nYeni hesabınız başarılı bir şekilde oluşturuldu. \n\nProfilinizi tamamlamak için lütfen {{2}} doğrulayın.",
+            "body_params": [
+                "John",
+                "e-posta adresinizi"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Hesabı doğrulayın",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7496156120427803"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "lo",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "ສິ້ນສຸດການຕິດຕັ້ງບັນຊີ",
+            "body": "ສະບາຍດີ {{1}},\n\nບັນຊີໃໝ່ຂອງທ່ານໄດ້ຖືກສ້າງສຳເລັດແລ້ວ. \n\nກະລຸນາຢືນຢັນ {{2}} ເພື່ອສຳເລັດການຕັ້ງໂປຣໄຟລ໌ຂອງທ່ານ.",
+            "body_params": [
+                "John",
+                "your email address"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "ຢືນຢັນບັນຊີ",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7509444575771652"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "af",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Handel opstelling van rekening af",
+            "body": "Hallo {{1}},\n\nJou nuwe rekening is suksesvol geskep.\n\nVerifieer asseblief {{2}} om jou profiel te voltooi.",
+            "body_params": [
+                "John",
+                "jou e-posadres"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Verifieer rekening",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7525771487507632"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "et",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Vii konto seadistamine lõpule",
+            "body": "Tere, {{1}}!\n\nSinu uue konto loomine õnnestus.\n\nProfiili lõpuleviimiseks kinnita {{2}}.",
+            "body_params": [
+                "John",
+                "oma meiliaadress"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Kinnita konto",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7527661190658096"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "sk",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Dokončite nastavenie účtu",
+            "body": "Dobrý deň {{1}},\n\nVáš nový účet bol úspešne vytvorený. \n\nOverte {{2}}, aby ste mohli dokončiť svoj profil.",
+            "body_params": [
+                "John",
+                "svoju e-mailovú adresu"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Overiť účet",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7546739442048107"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "ko",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "계정 설정을 완료하세요",
+            "body": "{{1}}님 안녕하세요,\n\n회원님의 새로운 계정이 생성되었습니다. {{2}}을(를) 확인하여 프로필을 완성하세요.",
+            "body_params": [
+                "진우",
+                "회원님의 이메일 주소"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "계정 인증",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7549006151847565"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "zu",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "Qedela ukusetha i-akhawunti",
+            "body": "Sawubona {{1}},\n\nI-akhawunti yakho entsha isungulwe ngempumelelo. \n\nSicela uqinisekise {{2}} ukuze uqedele iphrofayela yakho.",
+            "body_params": [
+                "John",
+                "your email address"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Qinisekisa i-akhawunti",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7551587708265088"
+        },
+        {
+            "name": "account_creation_confirmation_3",
+            "language": "th",
+            "category": "UTILITY",
+            "topic": "ACCOUNT_UPDATES",
+            "usecase": "ACCOUNT_CREATION_CONFIRMATION",
+            "industry": [
+                "E_COMMERCE",
+                "FINANCIAL_SERVICES"
+            ],
+            "header": "ตั้งค่าบัญชีให้เสร็จสิ้น",
+            "body": "สวัสดี {{1}}\n\nสร้างบัญชีใหม่ของคุณเรียบร้อยแล้ว \n\nโปรดยืนยัน{{2}}เพื่อตั้งค่าโปรไฟล์ให้เสร็จสมบูรณ์",
+            "body_params": [
+                "John",
+                "your email address"
+            ],
+            "body_param_types": [
+                "TEXT",
+                "TEXT"
+            ],
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "ยืนยันบัญชี",
+                    "url": "https://www.example.com"
+                }
+            ],
+            "id": "7554802354587322"
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "MAZDZD",
+            "after": "MjQZD"
+        },
+        "next": "https://graph.facebook.com/v20.0/message_template_library?limit=25&after=MjQZD"
+    }
+}
+
