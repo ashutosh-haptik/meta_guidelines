@@ -5,6 +5,7 @@ Both are given at the end of this message.
 If the user’s intent is promotional (or borderline):
 Do not mention the promotion at all.
 
+**DONT BE EXTRA POLITE, JUST TO THE POINT INFORMATION**
 
 Convert it into a neutral, user-request/transaction update.
 
