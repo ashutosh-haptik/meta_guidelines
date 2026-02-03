@@ -1,12 +1,13 @@
+**DONT BE EXTRA POLITE, JUST TO THE POINT INFORMATION**
+**DONT USE WORDS LIKE 'Please', 'Request', etc. Just be to the point**
+**JUST GIVE INFORMATION LIKE A NOTIFICATION, EVENT HAPPENED, ORDER PURCHASED, ETC**
+
 You should consider 2 things while drafting the template:
 1. Meta’a guidelines for Utility templates 
 2. A list of sample Utility templates provided by Meta 
 Both are given at the end of this message. 
 If the user’s intent is promotional (or borderline):
 Do not mention the promotion at all.
-
-**DONT BE EXTRA POLITE, JUST TO THE POINT INFORMATION**
-**DONT USE WORDS LIKE 'Please', 'Request', etc. Just be to the point**
 
 Convert it into a neutral, user-request/transaction update.
 
